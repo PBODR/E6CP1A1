@@ -5,11 +5,9 @@ a = 'verdadero'
 b = 'falso'
 
 if a == 'verdadero'
-    puts ':)'
+  puts ':)'
 else
-  if b == 'verdadero'
-    puts ':|'
-  else
-    puts ':('
-  end
+  puts ':|' if b == 'verdadero'
+  puts ':(' if b != 'verdadero'
+
 end

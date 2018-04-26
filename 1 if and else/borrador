@@ -1,0 +1,40 @@
+if a == 'verdadero'
+    puts ':)'
+else
+  if b == 'verdadero'
+    puts ':|'
+  else
+    puts ':('
+  end
+end
+
+
+for i in 1..10 do
+  puts i
+end
+
+
+
+
+
+for i in 1..990
+  puts i if (990 % i).zero?
+end
+
+990.times do |i|
+    i += 1
+  puts i if 990 % i == 0
+end
+
+
+
+i = 1
+
+for i in 1 .. 990
+  puts i  while 990 % i == 0
+
+  puts i while 990 % i == 0
+
+  990.times do |i|
+    puts (i + 1) if 990 % i == 0
+  end

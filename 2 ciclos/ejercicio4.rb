@@ -13,4 +13,3 @@ b = ''
 a.times do
   b = '<li> hola </li>'
 end
-

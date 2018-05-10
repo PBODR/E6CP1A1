@@ -8,8 +8,11 @@
 # </ul>
 
 a = 5
-b = ''
 
-a.times do
-  b = '<li> hola </li>'
-end
+b = "<ul>\n"
+#puts b
+a.times{b += "<li> hola </li>\n"}
+
+b += "<ul>\n"
+
+puts b

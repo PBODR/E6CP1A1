@@ -1,6 +1,16 @@
-=begin
-Generar el código para imprimir la siguiente tabla:
 
+suma = 0
+b = "<table>\n  <tbody>\n   <tr>\n"
+4.times{b += "    <td> #{suma+=1} </td>\n"}
+b += "   </tr>\n   <tr>\n"
+4.times{b += "    <td> #{suma+=1} </td>\n"}
+b += "   </tr>\n   <tr>\n"
+4.times{b += "    <td> #{suma+=1} </td>\n"}
+b += "   </tr>\n  </tbody>\n</table>\n"
+puts b
+
+
+=begin
  <table>
  <tbody>
   <tr>
